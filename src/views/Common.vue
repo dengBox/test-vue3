@@ -9,6 +9,8 @@
     <router-link to="fourDay">fourDay</router-link>
     <br>
     <router-link to="fiveDay">fiveDay</router-link>
+    <br>
+    <router-link to="sixthDay">sixthDay</router-link>
   </div>
 </template>
 

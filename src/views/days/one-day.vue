@@ -1,10 +1,10 @@
 <template>
- <div id="temp-div"></div>
+  <div id="temp-div"></div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import start from '../../plugin/heart'
+import start from '../../../plugin/heart'
 
 export default defineComponent({
   setup () {
