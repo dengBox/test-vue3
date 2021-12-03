@@ -33,6 +33,11 @@ const oneDayRoute: Array<RouteRecordRaw> = [
     path: '/sixthDay',
     name: 'sixthDay',
     component: () => import(/* webpackChunkName: "sixthDay" */ '../views/days/sixth-day.vue')
+  },
+  {
+    path: '/seventhDay',
+    name: 'seventhDay',
+    component: () => import(/* webpackChunkName: "seventhDay" */ '../views/days/seventh-day.vue')
   }
 ]
 

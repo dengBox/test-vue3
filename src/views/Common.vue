@@ -11,6 +11,8 @@
     <router-link to="fiveDay">fiveDay</router-link>
     <br>
     <router-link to="sixthDay">sixthDay</router-link>
+    <br>
+    <router-link to="seventhDay">seventhDay</router-link>
   </div>
 </template>
 
