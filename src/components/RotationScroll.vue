@@ -88,10 +88,10 @@ export default defineComponent({
       ref="scollEl"
       class={['scroll-wrap', this.direction === 'vertical' ? 'scroll-wrap-y-auto' : 'scroll-wrap-x-auto']}
       style={{ transform: `translate${this.direction === 'vertical' ? 'Y' : 'X'}(${this.scrollSize}px)` }}
-      on-click={this.click}
-      on-mousewheel={this.mouseWheel}
-      on-mouseenter={this.mouseEnter}
-      on-mouseleave={this.mouseLeave} >
+      onClick={this.click}
+      onMousewheel={this.mouseWheel}
+      onMouseenter={this.mouseEnter}
+      onMouseleave={this.mouseLeave} >
       {
         // 使用一屏所见的数组维护
         this.data.map(d => {
